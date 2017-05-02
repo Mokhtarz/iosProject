@@ -175,19 +175,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OcZ-yg-g5T">
-                                <rect key="frame" x="16" y="99" width="343" height="569"/>
+                                <rect key="frame" x="16" y="99" width="343" height="541"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you have a problem?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yec-WN-Ii9">
-                                        <rect key="frame" x="79.5" y="0.0" width="184" height="20.5"/>
+                                        <rect key="frame" x="80" y="0.0" width="184" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="B52-hZ-nBU">
-                                        <rect key="frame" x="0.0" y="28.5" width="343" height="360"/>
+                                        <rect key="frame" x="0.0" y="29" width="343" height="360"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="UQJ-KZ-fek">
-                                        <rect key="frame" x="111.5" y="396.5" width="120" height="30"/>
+                                        <rect key="frame" x="112" y="397" width="120" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWo-kY-DTU">
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -203,27 +203,21 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ub-4o-4Sh">
-                                        <rect key="frame" x="131" y="434.5" width="81" height="30"/>
+                                        <rect key="frame" x="131" y="435" width="81" height="30"/>
                                         <state key="normal" title="Your scores"/>
                                         <connections>
                                             <segue destination="Uz8-k8-5Oz" kind="show" id="tbp-SX-FUC"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are logged in as guest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LB-Y7-QRV">
-                                        <rect key="frame" x="71" y="472.5" width="201.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khy-yN-AZ4">
-                                        <rect key="frame" x="152.5" y="501" width="38" height="30"/>
+                                        <rect key="frame" x="153" y="473" width="38" height="30"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
                                             <segue destination="iu4-VS-SZ2" kind="show" id="GWe-fL-Zd3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taN-wd-68W">
-                                        <rect key="frame" x="143" y="539" width="57" height="30"/>
+                                        <rect key="frame" x="143" y="511" width="57" height="30"/>
                                         <state key="normal" title="Register"/>
                                         <connections>
                                             <segue destination="v10-hn-9bF" kind="show" id="Jwe-AQ-YEh"/>
@@ -231,6 +225,13 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are logged in as guest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LB-Y7-QRV">
+                                <rect key="frame" x="16" y="64" width="202" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -265,7 +266,7 @@
                                     <outletCollection property="gestureRecognizers" destination="ocH-fV-wQH" appends="YES" id="VbP-Pm-rc8"/>
                                 </connections>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tic_Tac_Toe" translatesAutoresizingMaskIntoConstraints="NO" id="LQq-zV-UU5">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Random" translatesAutoresizingMaskIntoConstraints="NO" id="LQq-zV-UU5">
                                 <rect key="frame" x="112" y="449" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -280,7 +281,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tic_Tac_Toe" translatesAutoresizingMaskIntoConstraints="NO" id="v26-63-yrG">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockPaperScissors" translatesAutoresizingMaskIntoConstraints="NO" id="v26-63-yrG">
                                 <rect key="frame" x="112" y="282" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -557,6 +558,8 @@
     </scenes>
     <resources>
         <image name="Logo" width="420" height="360"/>
+        <image name="Random" width="110" height="192"/>
+        <image name="RockPaperScissors" width="480" height="356"/>
         <image name="Tic_Tac_Toe" width="276" height="270"/>
         <image name="field" width="320" height="503"/>
     </resources>
