@@ -178,58 +178,68 @@
                                 <rect key="frame" x="16" y="99" width="343" height="541"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you have a problem?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yec-WN-Ii9">
-                                        <rect key="frame" x="80" y="0.0" width="184" height="21"/>
+                                        <rect key="frame" x="79.5" y="0.0" width="184" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="B52-hZ-nBU">
-                                        <rect key="frame" x="0.0" y="29" width="343" height="360"/>
+                                        <rect key="frame" x="0.0" y="28.5" width="343" height="360"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="UQJ-KZ-fek">
-                                        <rect key="frame" x="112" y="397" width="120" height="30"/>
+                                        <rect key="frame" x="111.5" y="396.5" width="120" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWo-kY-DTU">
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
-                                                <state key="normal" title="Yes"/>
+                                                <state key="normal" title="Yes">
+                                                    <color key="titleColor" red="0.11764705882352941" green="0.51764705882352935" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
                                                 <connections>
                                                     <segue destination="SkI-Tt-7DI" kind="show" id="N4L-o0-J7E"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRk-Xb-cSh">
                                                 <rect key="frame" x="90" y="0.0" width="30" height="30"/>
-                                                <state key="normal" title="No"/>
+                                                <state key="normal" title="No">
+                                                    <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ub-4o-4Sh">
-                                        <rect key="frame" x="131" y="435" width="81" height="30"/>
-                                        <state key="normal" title="Your scores"/>
+                                        <rect key="frame" x="131" y="434.5" width="81" height="30"/>
+                                        <state key="normal" title="Your scores">
+                                            <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="Uz8-k8-5Oz" kind="show" id="tbp-SX-FUC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khy-yN-AZ4">
-                                        <rect key="frame" x="153" y="473" width="38" height="30"/>
-                                        <state key="normal" title="Login"/>
+                                        <rect key="frame" x="152.5" y="472.5" width="38" height="30"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="iu4-VS-SZ2" kind="show" id="GWe-fL-Zd3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taN-wd-68W">
-                                        <rect key="frame" x="143" y="511" width="57" height="30"/>
-                                        <state key="normal" title="Register"/>
+                                        <rect key="frame" x="143" y="510.5" width="57" height="30"/>
+                                        <state key="normal" title="Register">
+                                            <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="v10-hn-9bF" kind="show" id="Jwe-AQ-YEh"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are logged in as guest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LB-Y7-QRV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are logged in as guest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LB-Y7-QRV">
                                 <rect key="frame" x="16" y="64" width="202" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -278,7 +288,7 @@
                                 <rect key="frame" x="127" y="86" width="120" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockPaperScissors" translatesAutoresizingMaskIntoConstraints="NO" id="v26-63-yrG">
