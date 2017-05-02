@@ -34,11 +34,7 @@ class ViewController: UIViewController {
             let userName = UserDefaults.standard.object(forKey: "User")
             print(check)
             print(userName!)
-            
-            
         }
-        
-        
     }
     
     func backgroundColor() {

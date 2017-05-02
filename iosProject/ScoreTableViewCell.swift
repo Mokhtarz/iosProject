@@ -11,9 +11,9 @@ import UIKit
 class ScoreTableViewCell: UITableViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var winStreak: UILabel!
-    @IBOutlet weak var tieStreak: UILabel!
-    @IBOutlet weak var loseStreak: UILabel!
+    @IBOutlet weak var winStreak: ScoreTableViewController!
+    @IBOutlet weak var tieStreak: ScoreTableViewController!
+    @IBOutlet weak var loseStreak: ScoreTableViewController!
     
 
     override func awakeFromNib() {
