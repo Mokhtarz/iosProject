@@ -47,6 +47,8 @@ class TicTacToeViewController: UIViewController, MCBrowserViewControllerDelegate
         
         //Tells that first player is x
         currentPlayer = "x"
+        
+        backgroundColor()
     }
     
 
@@ -261,6 +263,10 @@ class TicTacToeViewController: UIViewController, MCBrowserViewControllerDelegate
         // Dispose of any resources that can be recreated.
     }
     
+    func backgroundColor() {
+        let backColor = UIColor(red: 30/255.0, green: 30/255.0, blue: 30/255.0, alpha: 1.0)
+        view.backgroundColor = backColor
+    }
 
     
 }
