@@ -23,6 +23,7 @@ class LoginViewController: UIViewController {
         passField.layer.borderWidth = 1.0
 
         // Do any additional setup after loading the view.
+        backgroundColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -81,6 +82,11 @@ class LoginViewController: UIViewController {
             print("Error: \(error)")
         }
         
+    }
+    
+    func backgroundColor() {
+        let backColor = UIColor(red: 30/255.0, green: 30/255.0, blue: 30/255.0, alpha: 1.0)
+        view.backgroundColor = backColor
     }
     
     
