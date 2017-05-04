@@ -180,17 +180,17 @@
                                 <color key="textColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you have a problem?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yec-WN-Ii9">
-                                <rect key="frame" x="95" y="93" width="184" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you have a problem?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yec-WN-Ii9">
+                                <rect key="frame" x="73" y="93" width="228" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWo-kY-DTU">
-                                <rect key="frame" x="62" y="494" width="70" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWo-kY-DTU">
+                                <rect key="frame" x="70" y="509" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Yes">
+                                <state key="normal" title="Yes" image="Yes">
                                     <color key="titleColor" red="0.11764705882352941" green="0.51764705882352935" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -198,11 +198,21 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="B52-hZ-nBU">
-                                <rect key="frame" x="16" y="116" width="343" height="360"/>
+                                <rect key="frame" x="16" y="132" width="343" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taN-wd-68W">
+                                <rect key="frame" x="289" y="627" width="70" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="v10-hn-9bF" kind="show" id="Jwe-AQ-YEh"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khy-yN-AZ4">
-                                <rect key="frame" x="62" y="597" width="70" height="40"/>
+                                <rect key="frame" x="16" y="627" width="70" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -211,31 +221,21 @@
                                     <segue destination="iu4-VS-SZ2" kind="show" id="GWe-fL-Zd3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ub-4o-4Sh">
-                                <rect key="frame" x="142" y="542" width="90" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRk-Xb-cSh">
+                                <rect key="frame" x="256" y="509" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Your scores">
+                                <state key="normal" title="No" image="No">
+                                    <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ub-4o-4Sh">
+                                <rect key="frame" x="152" y="575" width="70" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Scores">
                                     <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Uz8-k8-5Oz" kind="show" id="tbp-SX-FUC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRk-Xb-cSh">
-                                <rect key="frame" x="245" y="494" width="70" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="No">
-                                    <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taN-wd-68W">
-                                <rect key="frame" x="245" y="597" width="70" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Register">
-                                    <color key="titleColor" red="0.1176470588" green="0.51764705879999995" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="v10-hn-9bF" kind="show" id="Jwe-AQ-YEh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -559,9 +559,11 @@
     </scenes>
     <resources>
         <image name="Logo" width="420" height="360"/>
+        <image name="No" width="210" height="213"/>
         <image name="Random" width="110" height="192"/>
         <image name="RockPaperScissors" width="480" height="356"/>
         <image name="Tic_Tac_Toe" width="276" height="270"/>
+        <image name="Yes" width="210" height="213"/>
         <image name="field" width="320" height="503"/>
     </resources>
 </document>
